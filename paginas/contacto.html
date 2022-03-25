@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactanos</title>
+    <link rel="icon" href="../media/Iso.png">
+    <link rel="stylesheet" href="../Styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body class="body">
+    <header class="encabezado">
+        <div class="encabezado--div">
+            <a class="encabezado--a--logo" href="../index.html"><img class="encabezado--logo"
+                    src="../media/Logo_Negro.png" alt="logoBrohemians" title="logoBrohemians"></a>
+            <div class="encabezado--div--h">
+                <h1 class="encabezado--div--h1">Brohemians,</h1>
+                <h2 class="encabezado--div--h2">Agencia digital</h2>
+            </div>
+        </div>
+        <nav class="encabezado--nav">
+            <ul class="encabezado--nav--ul">
+                <li class="encabezado--nav--ul--li"><a class="encabezado--a" href="nosotros.html">Nosotros</a>
+                </li>
+                <li class="encabezado--nav--ul--li"><a class="encabezado--a" href="experiencias.html">Experiencias</a>
+                </li>
+                <li class="encabezado--nav--ul--li"><a class="encabezado--a" href="servicios.html">Servicios</a>
+                </li>
+                <li class="encabezado--nav--ul--li"><a class="encabezado--a" href="#">Contacto</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main">
+        <section class="section--main--h3">
+            <h3 class="main--h3">Contactanos</h3>
+        </section>
+        <section>
+            <h4>Para todas las consultas, utilice el siguiente formulario.</h4>
+            <article>
+                <form>
+                    <fieldset>
+                        <legend>Datos personales</legend>
+                        <label for="nombre"> Nombre: </label><input type="text" placeholder="Ingrese su nombre"
+                            name="nombre" required>
+                        <br>
+                        <label for="apellido">Apellido: </label><input type="text" placeholder="Ingrese su apellido"
+                            name="apellido" required>
+                        <br>
+                        <label for="preferencias">Preferencias: </label>
+                        <label><input id="apps" type="checkbox" name="preferencias">Apps</label>
+                        <label><input id="redessociales" type="checkbox" name="preferencias">Redes Sociales</label>
+                        <label><input id="ecommerce" type="checkbox" name="preferencias">e-Commerce</label>
+                        <label><input id="comunicaciones" type="checkbox" name="preferencias">Comunicaciones</label>
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Datos de coporativos</legend>
+                        <label for="email">Email: </label><input type="email" placeholder="Indique su email"
+                            name="email" required>
+                        <br>
+                        <label for="telefono">Numero Telefonico: </label><input type="tel"
+                            placeholder="Ingrese su num. celular" name="telefono">
+                        <br>
+                        <label for="operador">Operador: </label>
+                        <select name="operador">
+                            <option value="0">Elige una opción</option>
+                            <option value="movistar">Movistar</option>
+                            <option value="personal">Personal</option>
+                            <option value="Claro">Claro</option>
+                            <option value="Tuenti">Tuenti</option>
+                        </select>
+                        <br>
+                        <label for="empresa"> Compañia: </label><input type="text" placeholder="Nombre de la compañia"
+                            name="empresa">
+                        <br>
+                        <label for="sector"> Sector: </label><input type="text" placeholder="Sector en la compañia"
+                            name="sector">
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>Mensaje</legend>
+                        <label for="motivo">Motivo de Contacto: </label>
+                        <label for="edicion"><input type="radio" name="motivo"> Edicion</label>
+                        <label for="diseno"><input type="radio" name="motivo"> Diseño</label>
+                        <label for="animacion"><input type="radio" name="motivo"> Animación</label>
+                        <br>
+                        <textarea cols="55" rows="8" name="descripcion" required></textarea>
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="Enviar">
+                    <input type="reset" value="Volver a empezar">
+                </form>
+            </article>
+        </section>
+    </main>
+    <section class="section">
+        <h3>Oficinas</h3>
+        <h4>Ciudad Autonoma de Buenos Aires</h4>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.016887889492!2d-58.383759084772585!3d-34.60373446500609!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4aa9f0a6da5edb%3A0x11bead4e234e558b!2sObelisco!5e0!3m2!1sen!2sar!4v1645905103552!5m2!1sen!2sar"
+            width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <table border="1" cellspacing="15px">
+            <th>Calle</th>
+            <th>Altura</th>
+            <th>Ciudad / CP</th>
+            <th>Telefono</th>
+            <th>Pais</th>
+            <tr>
+                <td>Av. 9 de Julio</td>
+                <td>s/n</td>
+                <td>CABA / C1043</td>
+                <td>55 55 66 55</td>
+                <td>Argentina</td>
+            </tr>
+        </table>
+    </section>
+    <footer class="footer">
+        <div class="footer--div1">
+            <img class="footer--logo" src="../media/Logo_Blanco.png" alt="logoBrohemians" title="logoBrohemians">
+            <h3>all rights reserved</h3>
+            <h3>Follow us.</h3>
+        </div>
+        <div class="footer--div">
+            <a href="https://behance.net/isangelsilva" target="_blank"><img src="../media/Icon_Behance.png"
+                    alt="logoBehance" title="logoBehance"></a>
+            <a href="https://www.instagram.com/wearebrohemians" target="_blank"><img src="../media/Icon_IG.png"
+                    alt="logoIg" title="logoIg"></a>
+        </div>
+    </footer>
+</body>
+
+</html>
