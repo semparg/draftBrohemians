@@ -7,6 +7,139 @@ html{
     font-family: 'Poppins', sans-serif;
     font-size: 62,5%;
     }
+
+.encabezado{
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.encabezado-left{
+   width:75%;
+}
+.h1-header{
+    font-size: 5vw;
+}
+.h2-header{
+    font-size: 5vw;
+}
+.nav-header{
+    width:20%;
+}
+.encabezado-right{
+    width:25%;
+ }
+ .footer-i{
+    background: #171d1c;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    }
+    .footer-i-1 {
+        top: 0px;
+        left: 0px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        }
+.ul-enlaces{
+    font-size: 3vw;
+}
+
+.section-1{
+    background-color: #efe9f4;
+    color:#171d1c;
+}
+.section-2{
+    background-color: #7537f8;
+    color: #fff;
+}
+.section-1-h3{
+    color: #7537f8;
+}
+.section-1-1{
+    background-color: #efe9f4;
+    color:#171d1c;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+.main-boton {
+    width: 130px;
+      height: 40px;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 25px;
+      font-family: 'Lato', sans-serif;
+      font-weight: 500;
+      background: transparent;
+      cursor: pointer;
+      transition: all 0.3s ease;
+      position: relative;
+      display: inline-block;
+       box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+       7px 7px 20px 0px rgba(0,0,0,.1),
+       4px 4px 5px 0px rgba(0,0,0,.1);
+      outline: none;
+        }
+          .btn {
+            width: 130px;
+            height: 40px;
+            line-height: 42px;
+            padding: 0;
+            border: none;
+            background:#7537f8;
+          background: linear-gradient(0deg,#7537f8,#7537f8 100%);
+          }
+          .btn:hover {
+            color: #7537f8;
+            background: transparent;
+             box-shadow:none;
+          }
+          .btn:before,
+          .btn:after{
+            content:'';
+            position:absolute;
+            top:0;
+            right:0;
+            height:2px;
+            width:0;
+            background: #7537f8;
+            box-shadow:
+             -1px -1px 5px 0px #fff,
+             7px 7px 20px 0px #0003,
+             4px 4px 5px 0px #0002;
+            transition:400ms ease all;
+          }
+          .btn:after{
+            right:inherit;
+            top:inherit;
+            left:0;
+            bottom:0;
+          }
+          .btn:hover:before,
+          .btn:hover:after{
+            width:100%;
+            transition:800ms ease all;
+          }
+          
+          
+    
+    .main-boton-frame {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin: 0 0 2px 0;
+        padding: 2px 0 0 0;
+        }
+.team-cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 .parrafoDePrueba{
     background-color: aqua;
 }
@@ -22,16 +155,7 @@ html{
     "footer";
     position: fixed bottom;
 }
-.encabezado{
-    background-color: #fff;
-    top: 0px;
-    left: 0px;
-    color: #171d1c;
-    display: flex;
-    flex-direction:row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    }
+
 .encabezado--div{
     display: flex;
     flex-direction:column;
@@ -280,11 +404,7 @@ width: 130px;
             font-size: 2rem;
             margin: 20px auto 10px 50px;
                 }
-    .encabezado{
-        display: flex;
-        flex-direction:row;
-        flex-wrap: wrap;
-        }
+   
     .encabezado--div{
         display: flex;
         flex-direction:row;
@@ -435,11 +555,7 @@ width: 130px;
 
     /*Desktops*/
 @media screen and (min-width: 768px){
-    .encabezado{
-        display: flex;
-        flex-direction:row;
-        flex-wrap:nowrap;
-        }
+
     .encabezado--div{
         display: flex;
         flex-direction:column;
