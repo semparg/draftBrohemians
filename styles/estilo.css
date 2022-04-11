@@ -1,0 +1,85 @@
+.body {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 4fr;
+  grid-template-areas: "encabezado" "main" "section" "footer";
+  position: fixed bottom; }
+
+.encabezado {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+  .encabezado .encabezado--div {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto 0px 10px;
+    justify-content: space-around; }
+    .encabezado .encabezado--div .encabezado--a--logo {
+      display: flex; }
+    .encabezado .encabezado--div div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around; }
+      .encabezado .encabezado--div div h1 {
+        font-size: 1rem; }
+      .encabezado .encabezado--div div h2 {
+        font-size: 0.7rem; }
+  .encabezado nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto 20px auto; }
+    .encabezado nav ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      align-items: center; }
+      .encabezado nav ul li {
+        list-style-type: none; }
+
+main {
+  background-color: #efe9f4;
+  color: #171d1c;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap; }
+  main .section--main--h3 {
+    display: flex;
+    justify-content: space-around; }
+  main h3 {
+    color: #7537f8;
+    font-weight: 200em;
+    font-size: 2rem; }
+
+.section {
+  background-color: #7537f8;
+  color: #fff;
+  display: flex;
+  flex-direction: column; }
+
+footer {
+  background: #171d1c;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 5px; }
+  footer .footer--div1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0 auto;
+    font-size: 0.7rem;
+    padding: 10px 0px 10px 0px;
+    row-gap: 10px; }
+  footer .footer--logo {
+    width: 113.4px;
+    height: 15.84px; }
+  footer .footer--div {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+    justify-content: right;
+    margin: 0 auto;
+    padding: 20px 0px 20px 0px; }
